@@ -1,0 +1,5 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/Joshua Albert/Downloads/Manim Learn Projects/media/videos/learn1/1080p60/partial_movie_files/FittingObjects/3544663784_3757566844_3992342046.mp4'
+file 'file:C:/Users/Joshua Albert/Downloads/Manim Learn Projects/media/videos/learn1/1080p60/partial_movie_files/FittingObjects/260329756_245891228_3621088777.mp4'
+file 'file:C:/Users/Joshua Albert/Downloads/Manim Learn Projects/media/videos/learn1/1080p60/partial_movie_files/FittingObjects/260329756_1268036162_3555813146.mp4'
+file 'file:C:/Users/Joshua Albert/Downloads/Manim Learn Projects/media/videos/learn1/1080p60/partial_movie_files/FittingObjects/260329756_671460094_3555813146.mp4'
