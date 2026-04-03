@@ -37,8 +37,20 @@ class FittingObjects(Scene):
 		self.play(circle.animate.set_width(1), run_time = 2)
 		self.play(Transform(circle, triangle), run_time = 3)
 
-#3. Updaters
+#3. Updaters1
 class Updaters(Scene):
 	def construct(self):
 
-		
+		rectangle = RoundedRectangle(stroke_color = WHITE, stroke_width = 8,
+		fill_color = BLUE_B, width = 4.5, height = 2).shift(UP*3+LEFT*4)
+
+		mathtext = MathTex("\\frac{3}{4} = 0.75").set_color_by_gradient(GREEN, PINK).set_height(1.5)
+		mathtext.move_to(rectangle.get_center())
+		mathtext.add_updater(lambda x: x.move_to(rectangle.get_center()))
+
+		self.play(FadeIn(rectangle), run_time = 2)
+		self.play(Write(mathtext), run_time = 2)
+		self.play(rectangle.animate.shift(RIGHT*1.5+DOWN*5), run_time = 3)
+		self.wait(1)
+		mathtext.clear_updaters()
+		self.play(rectangle.animate.shift(RIGHT*2+UP*3), run_time = 2)
