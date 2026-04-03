@@ -38,3 +38,7 @@ class FittingObjects(Scene):
 		self.play(Transform(circle, triangle), run_time = 3)
 
 #3. Updaters
+class Updaters(Scene):
+	def construct(self):
+
+		
