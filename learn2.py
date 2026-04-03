@@ -87,7 +87,7 @@ class Tute2(Scene): #ILLUSTRATING POLAR PLANE WITH A SINE CURVE
         axes = Axes(x_range = [0, 4, 1], x_length=3, y_range=[-3,3,1], y_length=3).shift(RIGHT*4)
         axes.add_coordinates()
         graph2 = always_redraw(lambda :
-            axes.get_graph(lambda x : 2*np.sin(3*x), x_range = [0, e.get_value()], color = GREEN)
+            axes.plot(lambda x : 2*np.sin(3*x), x_range = [0, e.get_value()], color = GREEN)
         )
         dot2 = always_redraw(lambda : Dot(fill_color = GREEN, fill_opacity = 0.8).scale(0.5).move_to(graph2.get_end()))
 
@@ -100,4 +100,4 @@ class Tute2(Scene): #ILLUSTRATING POLAR PLANE WITH A SINE CURVE
 
         self.add(graph1, graph2, dot1, dot2)
         self.play(e.animate.set_value(PI), run_time = 10, rate_func = linear)
-        self.wait()
+        self.wait() 
