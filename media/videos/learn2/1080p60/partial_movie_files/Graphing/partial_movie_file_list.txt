@@ -1,0 +1,6 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/Joshua Albert/Downloads/Learn Manim/media/videos/learn2/1080p60/partial_movie_files/Graphing/3544663784_379151940_223132457.mp4'
+file 'file:C:/Users/Joshua Albert/Downloads/Learn Manim/media/videos/learn2/1080p60/partial_movie_files/Graphing/260329756_1139075706_2271972789.mp4'
+file 'file:C:/Users/Joshua Albert/Downloads/Learn Manim/media/videos/learn2/1080p60/partial_movie_files/Graphing/260329756_4283042047_3765088284.mp4'
+file 'file:C:/Users/Joshua Albert/Downloads/Learn Manim/media/videos/learn2/1080p60/partial_movie_files/Graphing/260329756_2017367021_2638891772.mp4'
+file 'file:C:/Users/Joshua Albert/Downloads/Learn Manim/media/videos/learn2/1080p60/partial_movie_files/Graphing/260329756_4128264714_3041402753.mp4'
