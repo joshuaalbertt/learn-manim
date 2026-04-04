@@ -100,4 +100,4 @@ class Tute2(Scene): #ILLUSTRATING POLAR PLANE WITH A SINE CURVE
 
         self.add(graph1, graph2, dot1, dot2)
         self.play(e.animate.set_value(PI), run_time = 10, rate_func = linear)
-        self.wait() 
+        self.wait()
