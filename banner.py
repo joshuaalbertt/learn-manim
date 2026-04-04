@@ -19,7 +19,7 @@ class Banner(ThreeDScene):
                 "stroke_opacity": 0.2,
             }
         )
-        grid.get_axes().set_opacity(1)
+        grid.get_axes().set_opacity(0.5)
 
         axes_3d = ThreeDAxes()
         surface = axes_3d.plot_surface(
@@ -34,11 +34,10 @@ class Banner(ThreeDScene):
 
         title = Text(
             "It's Always About Patterns!",
-            font_size=48,
+            font_size=38,
             color=WHITE
         )
 
         self.add_fixed_in_frame_mobjects(title)
-        title.shift(UP * 2)
 
         self.add(grid, surface)
